@@ -13,5 +13,6 @@ public class Task4 {
         double c = round((a - b) * 1000);
         double d = c + b / 1000;
         System.out.println("Ваше измененное число: " + d);
+        scan.close();
     }
 }
