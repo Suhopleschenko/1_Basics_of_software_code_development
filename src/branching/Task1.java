@@ -9,7 +9,7 @@ public class Task1 {
         int a = scan.nextInt();
         System.out.println("Ведите второй угол в градусах:");
         int b = scan.nextInt();
-        if (a + b < 180 && a + b > 0) {
+        if (a + b < 180 && a > 0 && b > 0) {
             System.out.println("Треугольник существует");
             if (a == 90 || b == 90 || a + b == 90) {
                 System.out.println("Треугольник прямоугольный");
